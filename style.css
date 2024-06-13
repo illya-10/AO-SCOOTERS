@@ -1,0 +1,86 @@
+header, main, footer{
+    text-align: center;
+}
+
+html{
+    background-color: turquoise ;
+}
+body{
+    color: white;
+    background-color: rgb(153, 65, 197);
+    
+}
+.goat{
+    width: 700px;
+    margin: auto;
+}
+
+main a  {
+    text-decoration: none;
+    color:black;
+    border:3px solid turquoise ;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 3px;
+    background-color: turquoise;
+    font-style:oblique;
+    font-size: 19px;
+}
+
+table{
+    margin: auto;
+}
+td{
+    padding: 5px;
+    border: 1px solid turquoise;
+}
+
+h5{
+    color: turquoise;
+}
+section{
+    justify-content: space-around;
+    display: flex;
+}
+
+.decks{
+    flex-wrap: wrap;
+}
+img{
+    height:700px ;
+    width: 630px;
+    margin-bottom: 15px;
+}
+footer img{
+    height: 307px;
+    width: 300px;
+}
+
+footer div {
+   justify-content: space-around;
+    display: flex;
+}
+.ao{
+    width: 107px;
+    height: 100px;
+   
+}
+main a:hover{
+    box-shadow: 6px 6px 0 0 black;
+    transition: 0.5s ease-out;
+}
+h4{
+    font-size: 18px;
+}
+p{
+    font-size: 24px;
+}
+h2{
+    font-size: 24px;
+}
+ main img:hover{
+    opacity: 10;
+    margin: 26px;
+    border: 5px solid turquoise;
+    transition: 1s ease-out;
+}
